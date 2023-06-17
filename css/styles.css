@@ -1,19 +1,49 @@
 body {
+    display: flex;
+    justify-content: center;
     align-items: center;
     font-family: Arial;
 }
 
 #post {
     border: 1px solid #333;
-    padding: 30px;
+    border-radius: 20px;
+    width: 750px;
 }
 
-.titulo {
+#header {
+    display: flex;
+    align-items: center;
+    background-color: darkgreen;
+    padding-left: 25px;
+    height: 65px;
+    color: #C7E8CA;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 0px;
+}
+
+#header h1 {
+    margin-right: 15px;
+    font-size: 40px;
+}
+
+#header p {
+    margin-bottom: 0px;
+}
+
+.title {
     font-size: 35px;
+    border-bottom: 1px solid #333;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
 }
 
 #content {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0px 20px 30px 20px;
+    color: #333;
 }
