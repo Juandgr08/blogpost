@@ -27,8 +27,12 @@ body {
     font-size: 40px;
 }
 
-#header p {
-    margin-bottom: 0px;
+.motto {
+    margin: 22px 120px 0px 0px;
+}
+
+.buttons {
+    font-size: 14px;
 }
 
 .title {
