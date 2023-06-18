@@ -3,10 +3,13 @@ body {
     justify-content: center;
     align-items: center;
     font-family: Arial;
+    background-image: url("../images/nubes.jpeg");
+    height: 100vh;
+    background-size: cover;
 }
 
 #post {
-    border: 1px solid #333;
+    border: 1px solid darkgreen;
     border-radius: 20px;
     width: 750px;
 }
@@ -46,4 +49,25 @@ body {
     align-items: center;
     padding: 0px 20px 30px 20px;
     color: #333;
+    background-color: azure;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgreen;
+    border-radius: 0px 0px 20px 20px;
+    padding: 8px;
+}
+
+.link {
+    color: #beff4e;
+    font-size: 14px;
+    margin: 0px 0px 0px 6px;
+}
+
+img {
+    width: 30px;
+    margin: 0px;
 }
