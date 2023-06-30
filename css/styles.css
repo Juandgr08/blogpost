@@ -80,17 +80,18 @@ body {
 
 /* RESPONSIVE */
 @media(max-width:970px) {
-    .inactive-level1 {
+    .inactive {
         display: none;
+    }
+    #post {
+        width: 80%;
     }
 }
 @media(max-width:657px) {
-    .inactive-level2 {
-        display: none;
-    }
-}
-@media(max-width:563px) {
     #header h1 {
         font-size: 28px;
+    }
+    #post {
+        width: 90%;
     }
 }
